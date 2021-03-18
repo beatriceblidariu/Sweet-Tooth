@@ -1,0 +1,22 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	table-layout: fixed;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+	word-wrap:break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #ff9999;
+}
+button {
+  color: #FFF;
+  background-color: #ff9999;
+  font-weight: bold;
+}
